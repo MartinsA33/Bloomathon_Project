@@ -1,4 +1,57 @@
+body {
+    /* 1. Set the background image */
+    background-image: url('images/calm-background-g1y7p2km9ermddn7.jpg'); /* Adjust the path to your image */
+
+    /* 2. Control image repetition */
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    /* Other options: repeat (default), repeat-x, repeat-y */
+
+    /* 3. Control image position */
+    background-position: center center; /* Centers the image horizontally and vertically */
+    /* Other options: top left, 50% 50%, 0px 0px, etc. */
+
+    /* 4. Control image size */
+    background-size: cover; /* Scales the image to cover the entire background area, cropping if necessary */
+    /* Other common options:
+       - contain: Scales to fit, showing the full image, but may leave empty space
+       - 100% auto: Stretches image to full width, height adjusts proportionally
+       - auto 100%: Stretches image to full height, width adjusts proportionally
+       - 500px 300px: Fixed width and height
+    */
+
+    /* 5. Control background attachment (how it scrolls) */
+    background-attachment: fixed; /* Makes the background image fixed while content scrolls */
+    /* Other option: scroll (default) */
+
+    /* Optional: Fallback background color in case image doesn't load */
+    background-color: #f0f0f0;
+}
+
+
+
+
 .handshake-image{
+    position: absolute;
+    left:250px;
+    top:30px;
+    margin-right: 1000px;
     width:100px;
     height:100px;
+}
+.Kinder{
+    background-color:yellow;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    border: 5px solid black;
+    position:absolute;
+    left: 420px;
+    top: 10px;
+    width:331px;
+    height:50px;
+    text-align:center;
+}
+.header-div{
+    width: 80%;
+    margin-left:500px;
 }
