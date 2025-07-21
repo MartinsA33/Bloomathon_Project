@@ -31,11 +31,9 @@ body {
 
 
 .handshake-image{
-    position: absolute;
-    left:250px;
-    top:30px;
-    margin-right: 1000px;
-    width:100px;
+    position: relative;
+    left: 5px;
+    width:150px;
     height:100px;
 }
 .Kinder{
@@ -54,4 +52,85 @@ body {
 .header-div{
     width: 80%;
     margin-left:500px;
+}
+
+.what{
+    position:absolute;
+    top:170px;
+    border: 2px solid black;
+    Background-color:lightgreen;
+}
+.mental-healthPic{
+    width:150px;
+    height:100px;
+}
+.mental-div{
+width:150px;
+    height:150px;
+}
+.mental-health{
+    width:170px;
+}
+.benefits{
+    Background-color:white;
+    position:relative;
+    top:350px;
+    height:170px;
+    width:180px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+}
+.slide-title{
+    position:relative;
+    left:2px;
+    width:180px;
+}
+.dots{
+    position:relative;
+    left:25px;
+    margin-left:auto;
+    margin-right:auto;
+    width:150px;
+    height: 100px;
+}
+.dot1{
+    width:15px;
+    height:15px;
+}
+.dot2{
+    width:15px;
+    height:15px;
+}
+.dot3{
+    width:15px;
+    height:15px;
+}
+.dot4{
+    width:15px;
+    height:15px;
+}
+.dot5{
+    width:15px;
+    height:15px;
+}
+.slide{
+position:relative;
+    left:12px;
+    width:550px;
+    margin-left:auto;
+    margin-right:auto;
+
+
+
+}
+.relationship-div{
+    postion:relative;
+   right:50px;
+    width:170px;
+    height:150px;
+    display:;
+}
+.relationships{
+    width:170px;
 }
