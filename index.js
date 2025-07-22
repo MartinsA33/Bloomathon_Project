@@ -1,0 +1,1 @@
+document.querySelector(".Left-button").addEventListener("clicked", function() {})

@@ -57,6 +57,7 @@ body {
 .what{
     position:absolute;
     top:170px;
+    left:50px;
     border: 2px solid black;
     Background-color:lightgreen;
 }
@@ -65,8 +66,12 @@ body {
     height:100px;
 }
 .mental-div{
+    position:absolute;
+    bottom:50px;
+    right:15px;
 width:150px;
     height:150px;
+    display:block;
 }
 .mental-health{
     width:170px;
@@ -74,12 +79,12 @@ width:150px;
 .benefits{
     Background-color:white;
     position:relative;
-    top:350px;
+    top:150px;
     height:170px;
     width:180px;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:10px;
+left:920px;
+    bottom:0.1px;
+   /* border-radius:10px;*/
 }
 .slide-title{
     position:relative;
@@ -89,6 +94,7 @@ width:150px;
 .dots{
     position:relative;
     left:25px;
+    bottom:25px;
     margin-left:auto;
     margin-right:auto;
     width:150px;
@@ -115,9 +121,10 @@ width:150px;
     height:15px;
 }
 .slide{
+    padding:0px;
 position:relative;
     left:12px;
-    width:550px;
+    width:150px;
     margin-left:auto;
     margin-right:auto;
 
@@ -129,8 +136,77 @@ position:relative;
    right:50px;
     width:170px;
     height:150px;
-    display:;
+    display:none;
 }
 .relationships{
     width:170px;
+}
+
+.health-div{
+    height:150px;
+    display:none;
+}
+.health{
+    margin:0px;
+    width:150px;
+    height:150px;
+}
+.healthPic{
+    width:130px;
+    height:130px;
+}
+.Self-Esteem-div{
+    width:150px;
+    display:none;
+}
+.Self-EsteemPic{
+    position:relative;
+    left:6px;
+    width:130px;
+    height:130px;
+}
+.Purpose-div{
+    margin:0px;
+    width:150px;
+    height:150px;
+    display:none;
+}
+.Purpose{
+    margin:0px;
+    width:180px;
+    height:150px;
+}
+.PurposePic{
+
+    height:150px;
+    width:150px;
+}
+.Right-button{
+    background-color:white;
+    border:0px;
+    position:relative;
+    left:155px;
+    bottom:40px;
+    height:170px;
+    width:20px;
+}
+.Arrow{
+    position:relative;
+    right:5px;
+    height:70px;
+    width:70px;
+}
+.LeftArrow{
+    position:relative;
+    right:62px;
+    width:70px;
+}
+.Left-button{
+    border:0px;
+    background-color:white;
+    position:relative;
+    height:170px;
+    width:20px;
+    right:20px;
+    bottom:40px;
 }
