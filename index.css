@@ -66,7 +66,7 @@ body {
     height:100px;
 }
 .mental-div{
-    position:absolute;
+    position:relative;
     bottom:50px;
     right:15px;
 width:150px;
@@ -92,37 +92,45 @@ left:920px;
     width:180px;
 }
 .dots{
-    position:relative;
-    left:25px;
-    bottom:25px;
+    position:absolute;
+    left:55px;
+    top:180px;
     margin-left:auto;
     margin-right:auto;
     width:150px;
     height: 100px;
 }
 .dot1{
+   background-color:transparent;
+    border-radius:80%;
     width:15px;
     height:15px;
 }
 .dot2{
+    border-radius:80%;
     width:15px;
     height:15px;
 }
 .dot3{
+    border-radius:80%;
     width:15px;
     height:15px;
 }
 .dot4{
+    border-radius:80%;
     width:15px;
     height:15px;
 }
 .dot5{
+
+    border-radius:80%;
     width:15px;
     height:15px;
 }
 .slide{
     padding:0px;
 position:relative;
+    bottom:150px;
     left:12px;
     width:150px;
     margin-left:auto;
@@ -143,6 +151,7 @@ position:relative;
 }
 
 .health-div{
+    position: relative;
     height:150px;
     display:none;
 }
@@ -156,6 +165,7 @@ position:relative;
     height:130px;
 }
 .Self-Esteem-div{
+    position:relative;
     width:150px;
     display:none;
 }
@@ -166,20 +176,22 @@ position:relative;
     height:130px;
 }
 .Purpose-div{
-    margin:0px;
+    position:relative;
+    bottom:40px;
+    margin: 0;
     width:150px;
     height:150px;
     display:none;
 }
 .Purpose{
     margin:0px;
-    width:180px;
+    width:150px;
     height:150px;
 }
 .PurposePic{
 
-    height:150px;
-    width:150px;
+    height:100px;
+    width:100px;
 }
 .Right-button{
     background-color:white;
