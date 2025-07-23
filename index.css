@@ -60,6 +60,7 @@ body {
     left:50px;
     border: 2px solid black;
     Background-color:lightgreen;
+    border-radius:10px;
 }
 .mental-healthPic{
     width:150px;
@@ -224,4 +225,50 @@ position:relative;
     width:20px;
     right:20px;
     bottom:40px;
+}
+#kinder-purpose{
+    position:relative;
+    top:200px;
+    left:40px;
+    width:550px;
+    background-color:yellow;
+    border-radius:20px;
+    margin:0;
+}
+.purpose-title{
+    margin-top:0;
+    position:relative;
+    left:9px;
+    font-size:20px;
+}
+#KinderP{
+    margin:0;
+    position:relative;
+    bottom:5px;
+    left:5px;
+}
+#sign-in-header{
+    position:relative;
+    left:8px;
+    top:8px;
+    margin:0;
+}
+#Sign-in{
+    background-color:lightblue;
+    position:relative;
+    left:850px;
+    top:100px;
+    width:300px;
+    height:70px;
+    border-radius:15px;
+}
+#Sign-in-button{
+    background-color:lightgreen;
+    position:relative;
+    top:15px;
+    left:123px;
+    margin:0;
+    border:0;
+    border-radius:15px;
+    height:25px;
 }
